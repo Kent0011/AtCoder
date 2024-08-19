@@ -1,20 +1,22 @@
 import os
+import subprocess
 
-print('name:') 
-dirname = input()
+print('contest name') 
+contest_name = input()
 
 current = os.path.dirname(__file__)
 
-os.mkdir(f"{current}/../{dirname}")
+subprocess.call(['acc', 'new', contest_name, '-c', 'all'],cwd=rf'{current}/..')
 
 template = open(f'{current}/template.py','r')
 t = template.read()
 
-File = ['a.py','b.py','c.py','d.py','e.py','f.py','g.py']
+Contests = filenames = [f.name for f in os.scandir(f'{current}/../{contest_name}') if f.is_dir()]
 
-for file in File:
 
-    f = open(f"{current}/../{dirname}/{file}",'w')
+for contest in Contests:
+
+    f = open(f'{current}/../{contest_name}/{contest}/main.py','w')
 
     f.write(t)
 
