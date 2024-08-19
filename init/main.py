@@ -14,7 +14,7 @@ File = ['a.py','b.py','c.py','d.py','e.py','f.py','g.py']
 
 for file in File:
 
-    f = open(f"{current}/{dirname}/{file}",'w')
+    f = open(f"{current}/../{dirname}/{file}",'w')
 
     f.write(t)
 
