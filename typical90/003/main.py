@@ -4,39 +4,51 @@ import sys
 from functools import lru_cache
 import itertools
 
-n = int(input())
-# n,k = map(int,input().split())
-# A = list(map(int,input().split()))
+class Graph:
+    
+    def __init__(self, nodes: int):
+        self.nodes = nodes
+        self.G = [[] for _ in range(self.nodes)]
+        
+    def add_edge(self, node1: int, node2: int) -> None:
+        
+        self.G[node1].append(node2)
+        self.G[node2].append(node1)
+        
+    # 深さ優先探索
+    def dfs(self, start: int = 0) -> list:
 
-G = [[] for _ in range(n)]
+        dist = [-1] * self.nodes
+        dist[start] = 0
+
+        stack = [start]
+
+        while stack:
+            current_node = stack.pop()
+
+            for next_node in self.G[current_node]:
+                if dist[next_node] == -1:
+                    stack.append(next_node)
+                    dist[next_node] = dist[current_node] + 1
+
+        return dist
+    
+    # 木の直径
+    def diameter(self) -> int:
+        
+        tmp = max(enumerate(self.dfs(0)),key=lambda x: x[1])[0]
+        
+        return max(self.dfs(tmp))
+
+
+n = int(input())
+
+Graph = Graph(n)
 
 for _ in range(n-1):
     a, b = map(int,input().split())
     a-=1
     b-=1
-    G[a].append(b)
-    G[b].append(a)
+    Graph.add_edge(a,b)
     
-def dfs(s):
-    # 頂点 s からの距離
-    dist = [-1] * n
-    dist[s] = 0
-
-    # スタックで DFS
-    st = [s]
-    while st:
-        v = st.pop()
-        for nv in G[v]:
-            if dist[nv] == -1:
-                st.append(nv)
-                dist[nv] = dist[v] + 1
-                
-    return dist
-
-dist0 = dfs(0)
-
-mv = max(enumerate(dist0),key=lambda x: x[1])[0]
-
-dist = dfs(mv)
-
-print(max(dist)+1)
+print(Graph.diameter()+1)
