@@ -5,6 +5,5 @@ from functools import lru_cache
 import itertools
 
 # n = int(input())
-# n,k = map(int,input().split())
-# A = list(map(int,input().split()))
-
+n,k = map(int,input().split())
+P = list(map(int,input().split()))
