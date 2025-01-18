@@ -5,6 +5,7 @@ import math
 import sys
 from functools import lru_cache
 import bisect
+import heapq
 
 
 if __name__ == "__main__":
