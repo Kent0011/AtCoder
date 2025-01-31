@@ -1,0 +1,59 @@
+{
+  "contest": {
+    "id": "adt_medium_20250130_2",
+    "title": "AtCoder Daily Training MEDIUM 2025/01/30 18:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20250130_2"
+  },
+  "tasks": [
+    {
+      "id": "abc278_b",
+      "label": "C",
+      "title": "Misjudge the Time",
+      "url": "https://atcoder.jp/contests/adt_medium_20250130_2/tasks/abc278_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc358_b",
+      "label": "D",
+      "title": "Ticket Counter",
+      "url": "https://atcoder.jp/contests/adt_medium_20250130_2/tasks/abc358_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc293_c",
+      "label": "E",
+      "title": "Make Takahashi Happy ",
+      "url": "https://atcoder.jp/contests/adt_medium_20250130_2/tasks/abc293_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc310_c",
+      "label": "F",
+      "title": "Reversible",
+      "url": "https://atcoder.jp/contests/adt_medium_20250130_2/tasks/abc310_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc309_d",
+      "label": "G",
+      "title": "Add One Edge",
+      "url": "https://atcoder.jp/contests/adt_medium_20250130_2/tasks/abc309_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests"
+      }
+    }
+  ]
+}
