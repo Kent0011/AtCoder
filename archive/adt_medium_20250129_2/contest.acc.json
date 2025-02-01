@@ -1,0 +1,59 @@
+{
+  "contest": {
+    "id": "adt_medium_20250129_2",
+    "title": "AtCoder Daily Training MEDIUM 2025/01/29 18:00start",
+    "url": "https://atcoder.jp/contests/adt_medium_20250129_2"
+  },
+  "tasks": [
+    {
+      "id": "abc263_b",
+      "label": "C",
+      "title": "Ancestor",
+      "url": "https://atcoder.jp/contests/adt_medium_20250129_2/tasks/abc263_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc280_b",
+      "label": "D",
+      "title": "Inverse Prefix Sum",
+      "url": "https://atcoder.jp/contests/adt_medium_20250129_2/tasks/abc280_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc353_c",
+      "label": "E",
+      "title": "Sigma Problem",
+      "url": "https://atcoder.jp/contests/adt_medium_20250129_2/tasks/abc353_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc333_c",
+      "label": "F",
+      "title": "Repunit Trio",
+      "url": "https://atcoder.jp/contests/adt_medium_20250129_2/tasks/abc333_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc356_d",
+      "label": "G",
+      "title": "Masked Popcount",
+      "url": "https://atcoder.jp/contests/adt_medium_20250129_2/tasks/abc356_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests"
+      }
+    }
+  ]
+}
