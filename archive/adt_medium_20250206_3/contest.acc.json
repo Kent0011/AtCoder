@@ -1,0 +1,59 @@
+{
+  "contest": {
+    "id": "adt_medium_20250206_3",
+    "title": "AtCoder Daily Training MEDIUM 2025/02/06 20:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20250206_3"
+  },
+  "tasks": [
+    {
+      "id": "abc259_b",
+      "label": "C",
+      "title": "Counterclockwise Rotation",
+      "url": "https://atcoder.jp/contests/adt_medium_20250206_3/tasks/abc259_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc382_b",
+      "label": "D",
+      "title": "Daily Cookie 2",
+      "url": "https://atcoder.jp/contests/adt_medium_20250206_3/tasks/abc382_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc239_c",
+      "label": "E",
+      "title": "Knight Fork",
+      "url": "https://atcoder.jp/contests/adt_medium_20250206_3/tasks/abc239_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc375_c",
+      "label": "F",
+      "title": "Spiral Rotation",
+      "url": "https://atcoder.jp/contests/adt_medium_20250206_3/tasks/abc375_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc233_d",
+      "label": "G",
+      "title": "Count Interval",
+      "url": "https://atcoder.jp/contests/adt_medium_20250206_3/tasks/abc233_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests"
+      }
+    }
+  ]
+}
