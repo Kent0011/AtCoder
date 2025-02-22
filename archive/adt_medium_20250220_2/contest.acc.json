@@ -1,0 +1,59 @@
+{
+  "contest": {
+    "id": "adt_medium_20250220_2",
+    "title": "AtCoder Daily Training MEDIUM 2025/02/20 18:30start",
+    "url": "https://atcoder.jp/contests/adt_medium_20250220_2"
+  },
+  "tasks": [
+    {
+      "id": "abc314_b",
+      "label": "C",
+      "title": "Roulette",
+      "url": "https://atcoder.jp/contests/adt_medium_20250220_2/tasks/abc314_b",
+      "directory": {
+        "path": "c",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc359_b",
+      "label": "D",
+      "title": "Couples",
+      "url": "https://atcoder.jp/contests/adt_medium_20250220_2/tasks/abc359_b",
+      "directory": {
+        "path": "d",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc325_c",
+      "label": "E",
+      "title": "Sensors",
+      "url": "https://atcoder.jp/contests/adt_medium_20250220_2/tasks/abc325_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc362_c",
+      "label": "F",
+      "title": "Sum = 0",
+      "url": "https://atcoder.jp/contests/adt_medium_20250220_2/tasks/abc362_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc277_d",
+      "label": "G",
+      "title": "Takahashi's Solitaire",
+      "url": "https://atcoder.jp/contests/adt_medium_20250220_2/tasks/abc277_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests"
+      }
+    }
+  ]
+}
