@@ -1,0 +1,59 @@
+{
+  "contest": {
+    "id": "adt_hard_20250213_3",
+    "title": "AtCoder Daily Training HARD 2025/02/13 20:30start",
+    "url": "https://atcoder.jp/contests/adt_hard_20250213_3"
+  },
+  "tasks": [
+    {
+      "id": "abc322_c",
+      "label": "E",
+      "title": "Festival",
+      "url": "https://atcoder.jp/contests/adt_hard_20250213_3/tasks/abc322_c",
+      "directory": {
+        "path": "e",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc363_c",
+      "label": "F",
+      "title": "Avoid K Palindrome 2",
+      "url": "https://atcoder.jp/contests/adt_hard_20250213_3/tasks/abc363_c",
+      "directory": {
+        "path": "f",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc333_d",
+      "label": "G",
+      "title": "Erase Leaves",
+      "url": "https://atcoder.jp/contests/adt_hard_20250213_3/tasks/abc333_d",
+      "directory": {
+        "path": "g",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc327_e",
+      "label": "H",
+      "title": "Maximize Rating",
+      "url": "https://atcoder.jp/contests/adt_hard_20250213_3/tasks/abc327_e",
+      "directory": {
+        "path": "h",
+        "testdir": "tests"
+      }
+    },
+    {
+      "id": "abc266_f",
+      "label": "I",
+      "title": "Well-defined Path Queries on a Namori",
+      "url": "https://atcoder.jp/contests/adt_hard_20250213_3/tasks/abc266_f",
+      "directory": {
+        "path": "i",
+        "testdir": "tests"
+      }
+    }
+  ]
+}
