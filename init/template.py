@@ -6,7 +6,7 @@ import sys
 from functools import lru_cache
 import bisect
 import heapq
-from collections import deque
+from collections import deque, defaultdict
 
 
 def main():
