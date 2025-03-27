@@ -29,7 +29,7 @@ def main():
     # B = list(map(int,input().split()))
     
     # S (文字列)
-    # S = list(str(input()))
+    S = list(str(input()))
     
     # S1 S2 S3 ... Sn (文字列)
     # S = list(map(str,input().split()))
