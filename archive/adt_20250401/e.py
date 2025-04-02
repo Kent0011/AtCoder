@@ -37,43 +37,38 @@ def main():
     # A (二次元配列)
     # A = []
     
-    branch = defaultdict(set)
+    branch = [[] for _ in range(n)]
     
     for _ in range(m):
         u,v = list(map(int,input().split()))
         u -=1
         v -=1
         
-        branch[u].add(v)
-        branch[v].add(u)
+        branch[u].append(v)
+        branch[v].append(u)
         
     
     ans = 0
     visited = [False] * n
     stack = deque()
-    stack.append(0)
     
-    while 1:
-        flag = False
+    for i in range(n):
+        if not visited[i]:
+            stack.append(i)
+        else:
+            continue
         
         while stack:
             now = stack.popleft()
-            visited[now] = True
             for nex in branch[now]:
                 if not visited[nex]:
+                    visited[nex] = True
                     stack.append(nex)
             
         ans += 1
         
-        for i,v in enumerate(visited):
-            if not v:
-                stack.append(i)
-                flag = True
-                break
-            
-        if not flag:
-            print(ans)
-            return
+        
+    print(ans)
 
 
 if __name__ == "__main__": 
