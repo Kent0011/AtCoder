@@ -39,6 +39,15 @@ def main():
     # for _ in range(m):
     #     A.append(list(map(int,input().split())))
     ...
+    if n//2 < k:
+        ans = []
+        for i in range(n):
+            if i%2 == 0:
+                ans.append('o')
+            else:
+                ans.append('.')
+        print("".join(ans))
+        return
     
     onum = 0
     dotnum = 0
@@ -69,15 +78,39 @@ def main():
                     qnum -= 1
                     dotnum += 1
     
-    if qnum > k - dotnum:
+    if qnum//2 < k - onum:
+        for i,s in enumerate(S):
+            if s == '.' and i > 0:
+                if S[i-1] == '?':
+                    que.append(i)
+            if s == '.' and i < n-1:
+                if S[i+1] == '?':
+                    que.append(i)
+        
+        while que:
+            i = que.popleft()
+            if S[i] == '.':
+                if 0<i:
+                    if S[i-1] == '?':
+                        S[i-1] = 'o'
+                        que.append(i-1)
+                if i+1<n:
+                    if S[i+1] == '?':
+                        S[i+1] = 'o'
+                        que.append(i+1)
+            if S[i] == 'o':
+                if 0<i:
+                    if S[i-1] == '?':
+                        S[i-1] = '.'
+                        que.append(i-1)
+                if i+1<n:
+                    if S[i+1] == '?':
+                        S[i+1] = '.'
+                        que.append(i+1)
+        
         print("".join(S))
     else:
-        for s in S:
-            if s == '?':
-                s = 'o'
-            else:
-                print(s,end='')
-        print()
+        print("".join(S))
             
 if __name__ == "__main__": 
     main()

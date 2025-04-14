@@ -6,7 +6,7 @@ contest_name = input()
 
 current = os.path.dirname(__file__)
 
-subprocess.call(['acc', 'new', contest_name, '-c', 'all'],cwd=rf'{current}/..')
+subprocess.call(['acc', 'new', contest_name, '-c', 'all'],cwd=rf'{current}/..', shell=True)
 
 template = open(f'{current}/template.py','r')
 t = template.read()
